@@ -8,7 +8,7 @@
   margin-left: 15px;
   padding-bottom: 25px;
   font-size: 50px;
-  font-family: Monospace;
+  font-family: 'Sarpanch', sans-serif;
 }
 
 .terminal {
@@ -50,7 +50,8 @@ font-family: 'Share Tech', sans-serif;
   -webkit-filter: blur(1px);
   font-size:80px;
   margin-left: 100px;
-  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Sarpanch', sans-serif;
+/*  font-family: 'Shadows Into Light', cursive;*/
   font-weight:bold;
 }
 .buzz_wrapper span:nth-child(1){
