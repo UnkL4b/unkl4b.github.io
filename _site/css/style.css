@@ -8,14 +8,14 @@
   margin-left: 15px;
   padding-bottom: 25px;
   font-size: 50px;
-  font-family: 'Sarpanch', sans-serif;
+  font-family: 'Sarpanch', 'Lucida Console';
 }
 
 .terminal {
   position: absolute;
   width: 90%;
   height: 100%;
-  font-family: 'Share Tech', sans-serif;
+  font-family: 'Share Tech', 'Lucida Console';
 /*  color: #00fb72; */
   color: #fff; 
 }
