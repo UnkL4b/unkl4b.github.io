@@ -9,7 +9,8 @@
 <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Sarpanch' rel='stylesheet' type='text/css'>
 </head>
-<p class="rss-subscribe"><a href="{{ "/feed.xml" | prepend: site.baseurl }}">[ RSS ]</a></p>
+<p class="terminal">[ <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>]  
+[ <a href="/contato.html">C0nT4t0s</a> ]</p>
 <body style="background-color:black;">
   <div class="buzz_wrapper">
     <div class="text">
@@ -35,7 +36,8 @@
         {% for post in site.posts limit:2 %}
         ~> {{ post.date  | date: site.date_format }} - <a href="{{ post.url | prepend: site.baseurl }}" class="style14">{{ post.title }}</a>
         <br/>
-        {% endfor %}
+        {% endfor %}<br/>
+        [ <a href="postagens.html">M41s p0st4g3ns</a> ]
       </div>
 
     </span>
