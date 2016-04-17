@@ -8,14 +8,14 @@
   margin-left: 15px;
   padding-bottom: 25px;
   font-size: 50px;
-  font-family: verdana;
+  font-family: Monospace;
 }
 
 .terminal {
   position: absolute;
   width: 90%;
   height: 100%;
-  font-family: verdana;
+  font-family: Monospace;
 /*  color: #00fb72; */
   color: #fff; 
 }
@@ -50,7 +50,7 @@
   -webkit-filter: blur(1px);
   font-size:80px;
   margin-left: 100px;
-  font-family: 'Sarpanch', sans-serif;
+  font-family: 'Shadows Into Light', cursive;
   font-weight:bold;
 }
 .buzz_wrapper span:nth-child(1){
