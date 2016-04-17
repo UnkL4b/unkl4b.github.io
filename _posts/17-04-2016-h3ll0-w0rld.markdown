@@ -3,3 +3,18 @@ layout: post
 title:  "H3ll0 W0rld"
 date:   2016-04-17
 ---
+H3ll0 fr13nds!
+
+Não vou usar l33t aqui, chega de l33t por favor!
+
+Bom amigos, para quem ainda não me conhece, me chamo Danilo Vaz ou pode me chamar de Unk (UNK se pronuncia U ene ka), eu não vou prolongar muito esse post, mas gostaria de esclarecer algumas coisas sobre a mudança do blog(De novo).
+
+Pra quem acompanha meus estudos desde 2011 com meu primeiro blog pode ter percebido algumas mudanças nas minhas postagens, antes as postagens giravam em torno de tudo que era programas/tools de terceiros e tutoriais feito por outras pessoas, era esse o tipo de conteúdo que tinha no meu primeiro blog e com o tempo eu fui vendo que não era algo bem visto.
+
+Ao passar do tempo, criei meu segundo [blog](http://unk-br.blogspot.com), conteúdo autoral e scripts feitos por mim, mudando o conceito de antes, que era publicar algo que já tinham feito. Com esse segundo blog eu comecei a escrever posts de minha própria autoria e com soluções feitas por mim, mesmo assim, ainda precisava amadurecer um pouco mais, cheguei a postar conteúdos no blog no qual tive que tirar pois ainda assim, mesmo sendo autoral, atacava(*Atacar no sentido de muitas vezes expor falhas descobertas por mim sem comunicar a respectiva empresa.*) de certa forma algumas empresas. Alguns amigos vieram me dando alguns "toques" e fui amadurecendo sobre isso.
+
+Hoje, com esse novo blog eu pretendo corrigir esses erros que cometi e começar algo novo, procurando sempre evoluir para melhor, aprender e postar ainda mais sobre python e crawling que é o que gosto de estudar hoje. Espero que vocês gostem dessa nova fase do blog.
+
+Apenas para constar, o outro blog não será desativado, muito menos vou parar de postar coisas lá, apenas vou seguir duas linhas de postagens, vou deixar esse para postagens mais técnicas e o outro para algo mais simples, do dia-a-dia, ou algo que eu tenha vontade falar.
+
+Obrigado!

@@ -5,13 +5,27 @@
     <description></description>
     <link>http://127.0.0.1:4000/</link>
     <atom:link href="http://127.0.0.1:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 17 Apr 2016 09:33:24 -0300</pubDate>
-    <lastBuildDate>Sun, 17 Apr 2016 09:33:24 -0300</lastBuildDate>
+    <pubDate>Sun, 17 Apr 2016 10:23:51 -0300</pubDate>
+    <lastBuildDate>Sun, 17 Apr 2016 10:23:51 -0300</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
         <title>H3ll0 W0rld</title>
-        <description>
+        <description>&lt;p&gt;H3ll0 fr13nds!&lt;/p&gt;
+
+&lt;p&gt;Não vou usar l33t aqui, chega de l33t por favor!&lt;/p&gt;
+
+&lt;p&gt;Bom amigos, para quem ainda não me conhece, me chamo Danilo Vaz ou pode me chamar de Unk (UNK se pronuncia U ene ka), eu não vou prolongar muito esse post, mas gostaria de esclarecer algumas coisas sobre a mudança do blog(De novo).&lt;/p&gt;
+
+&lt;p&gt;Pra quem acompanha meus estudos desde 2011 com meu primeiro blog pode ter percebido algumas mudanças nas minhas postagens, antes as postagens giravam em torno de tudo que era programas/tools de terceiros e tutoriais feito por outras pessoas, era esse o tipo de conteúdo que tinha no meu primeiro blog e com o tempo eu fui vendo que não era algo bem visto.&lt;/p&gt;
+
+&lt;p&gt;Ao passar do tempo, criei meu segundo &lt;a href=&quot;http://unk-br.blogspot.com&quot;&gt;blog&lt;/a&gt;, conteúdo autoral e scripts feitos por mim, mudando o conceito de antes, que era publicar algo que já tinham feito. Com esse segundo blog eu comecei a escrever posts de minha própria autoria e com soluções feitas por mim, mesmo assim, ainda precisava amadurecer um pouco mais, cheguei a postar conteúdos no blog no qual tive que tirar pois ainda assim, mesmo sendo autoral, atacava(&lt;em&gt;Atacar no sentido de muitas vezes expor falhas descobertas por mim sem comunicar a respectiva empresa.&lt;/em&gt;) de certa forma algumas empresas. Alguns amigos vieram me dando alguns “toques” e fui amadurecendo sobre isso.&lt;/p&gt;
+
+&lt;p&gt;Hoje, com esse novo blog eu pretendo corrigir esses erros que cometi e começar algo novo, procurando sempre evoluir para melhor, aprender e postar ainda mais sobre python e crawling que é o que gosto de estudar hoje. Espero que vocês gostem dessa nova fase do blog.&lt;/p&gt;
+
+&lt;p&gt;Apenas para constar, o outro blog não será desativado, muito menos vou parar de postar coisas lá, apenas vou seguir duas linhas de postagens, vou deixar esse para postagens mais técnicas e o outro para algo mais simples, do dia-a-dia, ou algo que eu tenha vontade falar.&lt;/p&gt;
+
+&lt;p&gt;Obrigado!&lt;/p&gt;
 </description>
         <pubDate>Sun, 17 Apr 2016 00:00:00 -0300</pubDate>
         <link>http://127.0.0.1:4000/2016/04/17/h3ll0-w0rld.html</link>
