@@ -3,7 +3,6 @@ layout: post
 title:  "Formatando saida do NMAP com Python"
 date:   2016-05-11
 ---
-# Formatando saida do NMAP com Python
 
 ![img](https://media.giphy.com/media/K09XMn8LNleEg/giphy.gif)
 
