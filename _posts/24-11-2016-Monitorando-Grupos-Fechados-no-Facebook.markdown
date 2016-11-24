@@ -11,7 +11,7 @@ date:   2016-11-24
 Pensei muito se escreveria esse post ou não, mas enfim, quero falar um pouco sobre monitoramento.
 Em muitos trabalhos é preciso coletar informações, monitorar e ter a estratégia de como agir com determinado target, eu já tenho uma certa experiência com crawlers, mesmo que ainda seja pouca e me falte muito para realmente dizer que conheço sobre o assunto, aproveitando isso eu juntei o util com o agradável. 
 
-Vivemos em uma época em que informações valem muito dinheiro, empresas podem prever ataques ou até mesmo fraudes por conta de uma informação relevantes.
+Vivemos em uma época em que informações valem muito dinheiro, empresas podem prever ataques ou até mesmo fraudes por conta de uma informação relevante.
 
 Com base em um trabalho que estava realizando eu precisei monitorar algumas atitudes para proteger meu cliente, percebi que o principal meio de comunicação era grupos fechados de facebook, com isso eu procurei ferramentas em que eu pudesse monitorar esses tais grupos fechados ao público no facebook, não obtive sucesso na busca de uma ferramenta que fizesse isso e fui atrás de desenvolver algo para realizar o monitoramento.
 
