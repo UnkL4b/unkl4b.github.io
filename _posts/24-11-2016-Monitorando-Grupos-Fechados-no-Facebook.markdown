@@ -36,7 +36,7 @@ Bom, deixando a enrolação de lado, vamos partir para o código em si.
 
 O facebook na área de desenvolvedor tem um recurso chamado Graph que pode ser melhor compreendido aqui (https://developers.facebook.com/docs/graph-api).
 
-Com o graphs do facebook, conseguimos através da API deles ler postagens a publica-las, sabendo disso, fui pesquisa uma maneira de ler o conteúdo de grupos de facebook, descobri que da pra ler postagens em comunidades fechadas apenas nas APIs v2.1 a v2.3, atualmente a api do facebook está na v2.8, com isso não conseguiria fazer a pesquisa sem gerar um token, tive que fazer uma "gambiarra" usando selenium.
+Com o graphs do facebook, conseguimos através da API deles ler postagens a publica-las, sabendo disso, fui pesquisar uma maneira de ler o conteúdo de grupos de facebook, descobri que da pra ler postagens em comunidades fechadas apenas nas APIs v2.1 a v2.3, atualmente a api do facebook está na v2.8, com isso não conseguiria fazer a pesquisa sem gerar um token, tive que fazer uma "gambiarra" usando selenium.
 
 ### Gerando token de acesso a API do Facebook
 
@@ -53,7 +53,7 @@ name: "Danilo Vaz"
 }
 ```
 
-Beleza, entendo isso, vamos criar agora nosso token manualmente e depois montamos um script que gere o token.
+Beleza, entendendo isso, vamos criar agora nosso token manualmente e depois montamos um script que gere o token.
 
 Abra no navegador a pagina: https://developers.facebook.com/tools/explorer
 
@@ -190,4 +190,4 @@ Segue prints do script rodando:
 
 ![exec do script](https://unknownsec.files.wordpress.com/2016/11/captura-de-tela-2016-11-24-acc80s-18-37-04.png)
 
-Basicamente é isso galera, queria mostrar que é possível criar um monitoramento de grupos fechados de facebook, embora seja um meio generico, mas é possível.
+Basicamente é isso galera, queria mostrar que é possível criar um monitoramento de grupos fechados de facebook, embora seja um meio generico, é possível.
