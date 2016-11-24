@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Monitorando Grupos Fechados no Facebook"
-date:   2016-10-04
+date:   2016-11-24
 ---
 
 ![img](https://media.giphy.com/media/GHycyakNPWSoo/giphy.gif)
