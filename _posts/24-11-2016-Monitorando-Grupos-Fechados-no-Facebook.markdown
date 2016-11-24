@@ -6,7 +6,7 @@ date:   2016-11-24
 
 ![img](https://media.giphy.com/media/GHycyakNPWSoo/giphy.gif)
 
-####"Quis custodiet ipsos custodes?"
+###"Quis custodiet ipsos custodes?"
 
 Pensei muito se escreveria esse post ou não, mas enfim, quero falar um pouco sobre monitoramento.
 Em muitos trabalhos é preciso coletar informações, monitorar e ter a estratégia de como agir com determinado target, eu já tenho uma certa experiência com crawlers, mesmo que ainda seja pouca e me falte muito para realmente dizer que conheço sobre o assunto, aproveitando isso eu juntei o util com o agradável. 
