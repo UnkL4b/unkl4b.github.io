@@ -36,7 +36,7 @@ Bom, deixando a enrolação de lado, vamos partir para o código em si.
 
 O facebook na área de desenvolvedor tem um recurso chamado Graph que pode ser melhor compreendido aqui (https://developers.facebook.com/docs/graph-api).
 
-Com o graphs do facebook, conseguimos através da API deles ler postagens a publica-las, sabendo disso, fui pesquisar uma maneira de ler o conteúdo de grupos de facebook, descobri que da pra ler postagens em comunidades fechadas apenas nas APIs v2.1 a v2.3, atualmente a api do facebook está na v2.8, com isso não conseguiria fazer a pesquisa sem gerar um token, tive que fazer uma "gambiarra" usando selenium.
+Com o graphs do facebook, conseguimos através da API deles ler postagens e publica-las, sabendo disso, fui pesquisar uma maneira de ler o conteúdo de grupos de facebook, descobri que da pra ler postagens em comunidades fechadas apenas nas APIs v2.1 à v2.3, atualmente a api do facebook está na v2.8, com isso não conseguiria fazer a pesquisa sem gerar um token, tive que fazer uma "gambiarra" usando selenium.
 
 ### Gerando token de acesso a API do Facebook
 
@@ -55,11 +55,11 @@ name: "Danilo Vaz"
 
 Beleza, entendendo isso, vamos criar agora nosso token manualmente e depois montamos um script que gere o token.
 
-Abra no navegador a pagina: https://developers.facebook.com/tools/explorer
+Abra o navegador na pagina: https://developers.facebook.com/tools/explorer
 
 ![Token](https://unknownsec.files.wordpress.com/2016/10/captura-de-tela-2016-10-05-acc80s-17-24-03.png)
 
-Notem que tem o token indicado como "**Token de acesso**", certo, veja também mais abaixo que indica a API usada, nesse caso a **2.8**.
+Notem que tem o token indicado como "**Token de acesso**". Certo, veja também mais abaixo que indica a API usada, nesse caso a **2.8**.
 
 Para fazer o que queremos temos que gerar o token na API **2.3**, ultima API com o recurso que vamos usar.
 
@@ -75,7 +75,7 @@ Agora vamos selecionar o item "**user_groups**" em destaque na imagem abaixo:
 
 ![](https://unknownsec.files.wordpress.com/2016/10/captura-de-tela-2016-10-05-acc80s-17-33-49.png)
 
-Clique em "**Get Access Token**" que vai gerar o token que precisamos, agora, se você fizer novamente a consulta de um grupo privado ele vai retornar os posts do grupo.
+Clique em "**Get Access Token**" que vai gerar o token que precisamos. Agora, se você fizer novamente a consulta de um grupo privado ele vai retornar os posts do grupo.
 
 ![](https://unknownsec.files.wordpress.com/2016/10/captura-de-tela-2016-10-27-acc80s-00-24-24.png)
 
@@ -93,7 +93,7 @@ Eu separei ele em 4 scripts:
 
 - banco.py - faz o insert e cria o banco onde vamos armazenar os posts que coletamos
 
-- genlog.py - gera logs de erros que possam dar, ele armazena um txt com a data do evento de log na pasta logs/ 
+- genlog.py - gera logs de erros que possam dar, ele armazena um txt com a data do evento de log no diretório logs/ 
 
 - realt.py - gera uma pagina HTML com os posts, sinceramente, não precisava, porém achei interessante uma mostragem dos resultados de forma simplificada
 
@@ -107,7 +107,7 @@ Outro detalhe, eu usei uma lib própria pra ralizar a consulta no facebook, ache
 
 Voltando ao selenium, vou pular a parte de como baixa-lo, acredito que já deve saber como fazer, outra coisa, basta olhar o source.
 
-Entre as linhas 107 e 146 está a classe responsável por gerar o token, ao estanciar o browser do selenium eu precisava acessar a pagina de login que redirecionava para a parte de DEV do facebook, pra isso eu fiz da seguinte forma:
+Entre as linhas 107 e 146 está a classe responsável por gerar o token, ao instanciar o browser do selenium eu precisava acessar a pagina de login que redirecionava para a parte de DEV do facebook, pra isso eu fiz da seguinte forma:
 
     gen_browser = self.browser()
     gen_browser.get('https://www.facebook.com/login/?next=https%3A%2F%2Fdevelopers.facebook.com%2Ftools%2Fexplorer')
@@ -191,3 +191,5 @@ Segue prints do script rodando:
 ![exec do script](https://unknownsec.files.wordpress.com/2016/11/captura-de-tela-2016-11-24-acc80s-18-37-04.png)
 
 Basicamente é isso galera, queria mostrar que é possível criar um monitoramento de grupos fechados de facebook, embora seja um meio generico, é possível.
+
+Essa mesma lógica funciona para grupos abertos também, basta colocar o ID do grupo no arquivo de configuração.
