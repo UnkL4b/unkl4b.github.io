@@ -35,7 +35,7 @@
         [ P0sts ]
         <br/>
         <br/>
-        {% for post in site.posts limit:2 %}
+        {% for post in site.posts limit:3 %}
         ~> {{ post.date  | date: site.date_format }} - <a href="{{ post.url | prepend: site.baseurl }}" class="style14">{{ post.title }}</a>
         <br/>
         {% endfor %}<br/>
