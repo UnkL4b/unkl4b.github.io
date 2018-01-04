@@ -28,6 +28,37 @@
             position absolute
             bottom 0
             background-color #c06a64
+    .recent
+        +below(320px)
+                &:last-child
+                        display none
+        center(450px)
+        p
+                text-align left
+                color white
+        a
+                text-decoration none
+                h2
+                        text-align left
+                        margin 0
+                        font-weight 300
+                        font-size rem(17px)
+                        border-bottom 1px solid rgb(153, 250, 238)
+                        &:hover
+                                background rgba(124, 221, 210,0.42)
+    h1,h2
+        color: sec
+        text-align center
+    .site-title
+        font-size rem(30px)
+        line-height 1
+        display block
+        letter-spacing 9px
+        +above(cut)
+                letter-spacing 16px
+                margin-bottom 0
+                font-size rem(20px)
+
 .post-item
     text-align left
     padding rem(5px) rem(20px)
