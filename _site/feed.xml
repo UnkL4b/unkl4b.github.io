@@ -1,38 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>UnkL4b</title>
-    <description></description>
-    <link>http://127.0.0.1:4000/</link>
-    <atom:link href="http://127.0.0.1:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 17 Apr 2016 10:50:06 -0300</pubDate>
-    <lastBuildDate>Sun, 17 Apr 2016 10:50:06 -0300</lastBuildDate>
-    <generator>Jekyll v3.1.2</generator>
+    <title>Lorem Ipsum - Web Developer</title>
+    <description>A blog about lorem ipsum ...</description>
+    <link>http://victorvoid.github.io/space-jekyll-template//space-jekyll-template/</link>
+    <atom:link href="http://victorvoid.github.io/space-jekyll-template//space-jekyll-template/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 04 Jan 2018 15:51:50 -0200</pubDate>
+    <lastBuildDate>Thu, 04 Jan 2018 15:51:50 -0200</lastBuildDate>
+    <generator>Jekyll v3.7.0</generator>
     
       <item>
-        <title>H3ll0 W0rld</title>
-        <description>&lt;p&gt;H3ll0 fr13nds!&lt;/p&gt;
-
-&lt;p&gt;Não vou usar l33t aqui, chega de l33t por favor!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://media.giphy.com/media/mQG644PY8O7rG/giphy.gif&quot; alt=&quot;img&quot; title=&quot;LOL&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Bom amigos, para quem ainda não me conhece, me chamo Danilo Vaz ou pode me chamar de Unk (UNK se pronuncia U ene ka), eu não vou prolongar muito esse post, mas gostaria de esclarecer algumas coisas sobre a mudança do blog(De novo).&lt;/p&gt;
-
-&lt;p&gt;Pra quem acompanha meus estudos desde 2011 com meu primeiro blog pode ter percebido algumas mudanças nas minhas postagens, antes as postagens giravam em torno de tudo que era programas/tools de terceiros e tutoriais feito por outras pessoas, era esse o tipo de conteúdo que tinha no meu primeiro blog e com o tempo eu fui vendo que não era algo bem visto.&lt;/p&gt;
-
-&lt;p&gt;Ao passar do tempo, criei meu segundo &lt;a href=&quot;http://unk-br.blogspot.com&quot;&gt;blog&lt;/a&gt;, conteúdo autoral e scripts feitos por mim, mudando o conceito de antes, que era publicar algo que já tinham feito. Com esse segundo blog eu comecei a escrever posts de minha própria autoria e com soluções feitas por mim, mesmo assim, ainda precisava amadurecer um pouco mais, cheguei a postar conteúdos no blog no qual tive que tirar pois ainda assim, mesmo sendo autoral, atacava(&lt;em&gt;Atacar no sentido de muitas vezes expor falhas descobertas por mim sem comunicar a respectiva empresa.&lt;/em&gt;) de certa forma algumas empresas. Alguns amigos vieram me dando alguns “toques” e fui amadurecendo sobre isso.&lt;/p&gt;
-
-&lt;p&gt;Hoje, com esse novo blog eu pretendo corrigir esses erros que cometi e começar algo novo, procurando sempre evoluir para melhor, aprender e postar ainda mais sobre python e crawling que é o que gosto de estudar hoje. Espero que vocês gostem dessa nova fase do blog.&lt;/p&gt;
-
-&lt;p&gt;Apenas para constar, o outro blog não será desativado, muito menos vou parar de postar coisas lá, apenas vou seguir duas linhas de postagens, vou deixar esse para postagens mais técnicas e o outro para algo mais simples, do dia-a-dia, ou algo que eu tenha vontade falar.&lt;/p&gt;
-
-&lt;p&gt;Obrigado!&lt;/p&gt;
-</description>
-        <pubDate>Sun, 17 Apr 2016 00:00:00 -0300</pubDate>
-        <link>http://127.0.0.1:4000/2016/04/17/h3ll0-w0rld.html</link>
-        <guid isPermaLink="true">http://127.0.0.1:4000/2016/04/17/h3ll0-w0rld.html</guid>
+        <title>Sharding in MongoDB</title>
+        <description>&lt;p class=&quot;music-read&quot;&gt;&lt;a href=&quot;spotify:track:4DAZ8UYNpWVIV46aLkN2Qp&quot;&gt;Music for reading(spotify)&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/raw.gif&quot; /&gt;&lt;/p&gt; &lt;h2 id=&quot;sharding--why-&quot;&gt;Sharding ? why ?&lt;/h2&gt; &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste quas, esse laudantium quis ipsa consequuntur iure atque! Necessitatibus quam quidem illum, corrupti molestiae, maxime neque, consequuntur quia alias, modi commodi.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate rem ducimus dolores repellat itaque perferendis corporis ex dicta doloremque optio harum excepturi, ut, praesentium asperiores! Voluptatum amet perspiciatis iusto, fugiat!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, libero quia placeat necessitatibus culpa mollitia, illum, quam sed ratione ad eaque suscipit consectetur itaque quasi aperiam. Quaerat, nihil voluptas...</description>
+        <pubDate>Sun, 11 Sep 2016 21:06:31 -0300</pubDate>
+        <link>http://victorvoid.github.io/space-jekyll-template//space-jekyll-template/sharding/</link>
+        <guid isPermaLink="true">http://victorvoid.github.io/space-jekyll-template//space-jekyll-template/sharding/</guid>
         
+        <category>mongodb</category>
+        
+        
+        <category>Learn Jekyll</category>
+        
+      </item>
+    
+      <item>
+        <title>Github is awesome</title>
+        <description>&lt;p class=&quot;music-read&quot;&gt;&lt;a href=&quot;spotify:track:4DAZ8UYNpWVIV46aLkN2Qp&quot;&gt;Music for reading(spotify)&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/raw.gif&quot; /&gt;&lt;/p&gt; &lt;h2 id=&quot;github--why-&quot;&gt;Github ? why ?&lt;/h2&gt; &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste quas, esse laudantium quis ipsa consequuntur iure atque! Necessitatibus quam quidem illum, corrupti molestiae, maxime neque, consequuntur quia alias, modi commodi.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate rem ducimus dolores repellat itaque perferendis corporis ex dicta doloremque optio harum excepturi, ut, praesentium asperiores! Voluptatum amet perspiciatis iusto, fugiat!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, libero quia placeat necessitatibus culpa mollitia, illum, quam sed ratione ad eaque suscipit consectetur itaque quasi aperiam. Quaerat, nihil voluptas...</description>
+        <pubDate>Fri, 11 Mar 2016 21:06:31 -0300</pubDate>
+        <link>http://victorvoid.github.io/space-jekyll-template//space-jekyll-template/space/</link>
+        <guid isPermaLink="true">http://victorvoid.github.io/space-jekyll-template//space-jekyll-template/space/</guid>
+        
+        <category>mongodb</category>
+        
+        
+        <category>Learn GH</category>
         
       </item>
     

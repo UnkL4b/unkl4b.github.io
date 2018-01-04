@@ -1,49 +1,15 @@
+---
+layout: compress
+---
 <!DOCTYPE html>
-<html >
-<head>
-<meta charset="UTF-8">
-<title>..:: {{site.title}} ::..</title>
-<link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-<link href='https://fonts.googleapis.com/css?family=Share+Tech' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Sarpanch' rel='stylesheet' type='text/css'>
-</head>
-<p class="terminal">[ <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>]  
-[ <a href="/contato.html">C0nT4t0s</a> ]</p>
-<body style="background-color:black;">
-  <div class="buzz_wrapper">
-    <div class="text">
-      <center><span><img src="img/LOGOBRANCO.png"></span></center>
-      <center><span>_UnkL4b_<span></center>
-    </div>
-    <div class="scanline"></div>
-  </div>
-  <div class="terminal row">
-    <span terminal=1 class="terminal-line">
-      <div class="col-md-6">
-        [ T00ls ]
-        <br/>
-        <br/>
-        ~> <a href="https://github.com/UnkL4b/GitMiner">GitMiner</a> - Advanced search tool and automation in Github.
-        <br/>
-        ~> <a href="https://github.com/danilovazb/sawef">Sawef</a> - Send Attack Web Forms
-        <br/>
-        ~> <a href="https://github.com/UnkL4b/group-monitor">FB Group Monitor</a> - Facebook Priv8 Group Monitor
-      </div>
-      <div class="col-md-6">
-        [ P0sts ]
-        <br/>
-        <br/>
-        {% for post in site.posts limit:3 %}
-        ~> {{ post.date  | date: site.date_format }} - <a href="{{ post.url | prepend: site.baseurl }}" class="style14">{{ post.title }}</a>
-        <br/>
-        {% endfor %}<br/>
-        [ <a href="postagens.html">M41s p0st4g3ns</a> ]
-      </div>
-
-    </span>
-  </div>
-  <script src="js/index.js"></script>
-</body>
+<html lang="en">
+    {% include head.html %}
+    <body>
+        {% include svg-icons.html %}
+        {% include header-default.html %}
+            <main role="main" class="content">
+                {{ content }}
+            </main>
+        {% include scripts.html %}
+    </body>
 </html>
