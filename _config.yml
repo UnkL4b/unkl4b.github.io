@@ -1,7 +1,7 @@
 # Site settings
 title: Lorem Ipsum - Web Developer
 description: "A blog about lorem ipsum ..."
-baseurl: "/" # for test: remove string '/space-jekyll-template' to ''
+baseurl: "" # for test: remove string '/space-jekyll-template' to ''
 url: "http://unkl4b.github.io/" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
 
 # User settings
