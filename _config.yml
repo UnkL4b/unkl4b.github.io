@@ -1,19 +1,19 @@
 # Site settings
-title: Lorem Ipsum - Web Developer
-description: "A blog about lorem ipsum ..."
+title: UnkL4b
+description: ""
 baseurl: "" # for test: remove string '/space-jekyll-template' to ''
 url: "http://unkl4b.github.io/" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
 
 # User settings
-username: lorem ipsum
-user_title: Lorem Ipsum - FrontEnd
-email: lorem.lorem@ipsum.com
-twitter_username: loremipsum
-github_username:  loremipsum
-gplus_username:  loremipsum
-linkedin_public_url: loremipsum # Example: For public profile 'www.linkedin.com/in/john-smith', 'john-smith' is your linkedin_public_url
-disqus_username: loremipsum
-profile_picture: https://68.media.tumblr.com/93f384858e9273d5b980b418e2f2f4d5/tumblr_o5i2aybLJG1uapsfmo2_250.png
+username: UnkL4b
+user_title: UnkL4b
+email: unkl4b@protonmail.com
+twitter_username: danilo_vaz_
+github_username: UnkL4b
+#gplus_username:  
+#linkedin_public_url: loremipsum # Example: For public profile 'www.linkedin.com/in/john-smith', 'john-smith' is your linkedin_public_url
+#disqus_username: loremipsum
+profile_picture: https://avatars0.githubusercontent.com/u/18489849
 
 # Build settings
 markdown: kramdown
@@ -30,41 +30,41 @@ compress_html:
 # Links to include in menu navigation
 links:
   section_1:
-    - title: home
+    - title: Home
       url: /
       key_trigger: 1
-    - title: my posts
+    - title: Posts
       url: /posts
       key_trigger: 2
-    - title: series
-      url: /series
-      key_trigger: 3
-    - title: tags
-      url: /tags
-      key_trigger: 4
-    - title: about me
-      url: /about
-      key_trigger: 5
+#    - title: series
+#      url: /series
+#      key_trigger: 3
+#    - title: tags
+#      url: /tags
+#      key_trigger: 4
+#    - title: about me
+#      url: /about
+#      key_trigger: 5
   section_2:
-    - title: github
-      url: http://www.github.com/victorvoid
+    - title: GitHub
+      url: http://www.github.com/unkl4b
       new_tab: true
       key_trigger: g
-    - title: twitter
-      url: http://www.twitter.com/victorvoid
+    - title: Twitter
+      url: http://www.twitter.com/danilo_vaz_
       key_trigger: t
-    - title: search
-      url: ""
-      key_trigger: s #WARNING: search only works with "s"
+#    - title: search
+#      url: ""
+#      key_trigger: s #WARNING: search only works with "s"
 
 # projects in header index
 projects:
-  - name: fluany
-    url: https://github.com/fluany/fluany
-  - name: vim-frontend
-    url: https://github.com/victorvoid/vim-frontend
-  - name: generator-capybara
-    url: https://github.com/victorvoid/generator-capybara 
+  - name: GitMiner
+    url: https://github.com/UnkL4b/GitMiner
+  - name: Facebook Group Monitor
+    url: https://github.com/UnkL4b/group-monitor
+  - name: Nmap Parser XML
+    url: https://github.com/UnkL4b/nmap-parser
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']

@@ -1,39 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Lorem Ipsum - Web Developer</title>
-    <description>A blog about lorem ipsum ...</description>
-    <link>http://victorvoid.github.io/space-jekyll-template//space-jekyll-template/</link>
-    <atom:link href="http://victorvoid.github.io/space-jekyll-template//space-jekyll-template/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 04 Jan 2018 15:51:50 -0200</pubDate>
-    <lastBuildDate>Thu, 04 Jan 2018 15:51:50 -0200</lastBuildDate>
+    <title>UnkL4b</title>
+    <description></description>
+    <link>http://unkl4b.github.io//</link>
+    <atom:link href="http://unkl4b.github.io//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 04 Jan 2018 17:46:51 -0200</pubDate>
+    <lastBuildDate>Thu, 04 Jan 2018 17:46:51 -0200</lastBuildDate>
     <generator>Jekyll v3.7.0</generator>
     
       <item>
-        <title>Sharding in MongoDB</title>
-        <description>&lt;p class=&quot;music-read&quot;&gt;&lt;a href=&quot;spotify:track:4DAZ8UYNpWVIV46aLkN2Qp&quot;&gt;Music for reading(spotify)&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/raw.gif&quot; /&gt;&lt;/p&gt; &lt;h2 id=&quot;sharding--why-&quot;&gt;Sharding ? why ?&lt;/h2&gt; &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste quas, esse laudantium quis ipsa consequuntur iure atque! Necessitatibus quam quidem illum, corrupti molestiae, maxime neque, consequuntur quia alias, modi commodi.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate rem ducimus dolores repellat itaque perferendis corporis ex dicta doloremque optio harum excepturi, ut, praesentium asperiores! Voluptatum amet perspiciatis iusto, fugiat!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, libero quia placeat necessitatibus culpa mollitia, illum, quam sed ratione ad eaque suscipit consectetur itaque quasi aperiam. Quaerat, nihil voluptas...</description>
-        <pubDate>Sun, 11 Sep 2016 21:06:31 -0300</pubDate>
-        <link>http://victorvoid.github.io/space-jekyll-template//space-jekyll-template/sharding/</link>
-        <guid isPermaLink="true">http://victorvoid.github.io/space-jekyll-template//space-jekyll-template/sharding/</guid>
+        <title>Monitorando Grupos Fechados no Facebook</title>
+        <description>&lt;p&gt;&lt;img src=&quot;https://media.giphy.com/media/GHycyakNPWSoo/giphy.gif&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt; &lt;h4 id=&quot;quis-custodiet-ipsos-custodes&quot;&gt;Quis custodiet ipsos custodes?&lt;/h4&gt; &lt;p&gt;Pensei muito se escreveria esse post ou não, mas enfim, quero falar um pouco sobre monitoramento. Em muitos trabalhos é preciso coletar informações, monitorar e ter a estratégia de como agir com determinado target, eu já tenho uma certa experiência com crawlers, mesmo que ainda seja pouca e me falte muito para realmente dizer que conheço sobre o assunto, aproveitando isso eu juntei o util com o agradável.&lt;/p&gt; &lt;p&gt;Vivemos em uma época em que informações valem muito dinheiro, empresas podem prever ataques ou até mesmo fraudes por conta de uma informação...</description>
+        <pubDate>Thu, 24 Nov 2016 00:00:00 -0200</pubDate>
+        <link>http://unkl4b.github.io//Monitorando/</link>
+        <guid isPermaLink="true">http://unkl4b.github.io//Monitorando/</guid>
         
-        <category>mongodb</category>
-        
-        
-        <category>Learn Jekyll</category>
         
       </item>
     
       <item>
-        <title>Github is awesome</title>
-        <description>&lt;p class=&quot;music-read&quot;&gt;&lt;a href=&quot;spotify:track:4DAZ8UYNpWVIV46aLkN2Qp&quot;&gt;Music for reading(spotify)&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/raw.gif&quot; /&gt;&lt;/p&gt; &lt;h2 id=&quot;github--why-&quot;&gt;Github ? why ?&lt;/h2&gt; &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste quas, esse laudantium quis ipsa consequuntur iure atque! Necessitatibus quam quidem illum, corrupti molestiae, maxime neque, consequuntur quia alias, modi commodi.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate rem ducimus dolores repellat itaque perferendis corporis ex dicta doloremque optio harum excepturi, ut, praesentium asperiores! Voluptatum amet perspiciatis iusto, fugiat!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, libero quia placeat necessitatibus culpa mollitia, illum, quam sed ratione ad eaque suscipit consectetur itaque quasi aperiam. Quaerat, nihil voluptas...</description>
-        <pubDate>Fri, 11 Mar 2016 21:06:31 -0300</pubDate>
-        <link>http://victorvoid.github.io/space-jekyll-template//space-jekyll-template/space/</link>
-        <guid isPermaLink="true">http://victorvoid.github.io/space-jekyll-template//space-jekyll-template/space/</guid>
-        
-        <category>mongodb</category>
+        <title>Formatando saida do NMAP com Python</title>
+        <description>&lt;p&gt;&lt;img src=&quot;https://media.giphy.com/media/K09XMn8LNleEg/giphy.gif&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt; &lt;p&gt;Olá pessoas do meu blog, tudo bem com vocês?&lt;/p&gt; &lt;p&gt;Estou sumido não é mesmo?&lt;/p&gt; &lt;p&gt;Bom, faz algumas semanas que não abro o bash nem minha console python para brincar, eu tenho trabalhado e estudado demais, por conta do trabalho terei que tirar algumas certificações, mas eu já estava com vontade escrever sobre o que vou falar aqui para vocês. A algumas semanas atrás eu comecei a estudar uma lib em python que usa o NMAP para realizar scans, nada novo, ela apenas usa o NMAP como um subprocess e formata a saída do resultado.&lt;/p&gt; &lt;p&gt;Ai vocês...</description>
+        <pubDate>Wed, 11 May 2016 00:00:00 -0300</pubDate>
+        <link>http://unkl4b.github.io//Formatando-Saida-Nmap/</link>
+        <guid isPermaLink="true">http://unkl4b.github.io//Formatando-Saida-Nmap/</guid>
         
         
-        <category>Learn GH</category>
+      </item>
+    
+      <item>
+        <title>H3ll0 W0rld</title>
+        <description>&lt;p&gt;H3ll0 fr13nds!&lt;/p&gt; &lt;p&gt;Não vou usar l33t aqui, chega de l33t por favor!&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;https://media.giphy.com/media/mQG644PY8O7rG/giphy.gif&quot; alt=&quot;img&quot; title=&quot;LOL&quot; /&gt;&lt;/p&gt; &lt;p&gt;Bom amigos, para quem ainda não me conhece, me chamo Danilo Vaz ou pode me chamar de Unk (UNK se pronuncia U ene ka), eu não vou prolongar muito esse post, mas gostaria de esclarecer algumas coisas sobre a mudança do blog(De novo).&lt;/p&gt; &lt;p&gt;Pra quem acompanha meus estudos desde 2011 com meu primeiro blog pode ter percebido algumas mudanças nas minhas postagens, antes as postagens giravam em torno de tudo que era programas/tools de terceiros e tutoriais feito por outras pessoas, era esse...</description>
+        <pubDate>Sun, 17 Apr 2016 00:00:00 -0300</pubDate>
+        <link>http://unkl4b.github.io//h3ll0-w0rld/</link>
+        <guid isPermaLink="true">http://unkl4b.github.io//h3ll0-w0rld/</guid>
+        
         
       </item>
     
