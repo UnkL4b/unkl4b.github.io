@@ -35,8 +35,8 @@
         [ P0sts ]
         <br/>
         <br/>
-        
-        ~> 17-04-2016 - <a href="/2016/04/17/h3ll0-w0rld.html" class="style14">H3ll0 W0rld</a>
+        {% for post in site.posts limit:3 %}
+        ~> {{ post.date  | date: site.date_format }} - <a href="{{ post.url | prepend: site.baseurl }}" class="style14">{{ post.title }}</a>
         <br/>
         <br/>
         [ <a href="postagens.html">M41s p0st4g3ns</a> ]
