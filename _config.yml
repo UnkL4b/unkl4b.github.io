@@ -46,14 +46,14 @@ links:
 #    - title: about me
 #      url: /about
 #      key_trigger: 5
-  section_2:
-    - title: GitHub
-      url: http://www.github.com/unkl4b
-      new_tab: true
-      key_trigger: g
-    - title: Twitter
-      url: http://www.twitter.com/danilo_vaz_
-      key_trigger: t
+#  section_2:
+#    - title: GitHub
+#      url: http://www.github.com/unkl4b
+#      new_tab: true
+#      key_trigger: g
+#    - title: Twitter
+#      url: http://www.twitter.com/danilo_vaz_
+#      key_trigger: t
 #    - title: search
 #      url: ""
 #      key_trigger: s #WARNING: search only works with "s"
