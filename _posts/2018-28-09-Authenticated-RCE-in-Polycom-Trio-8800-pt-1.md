@@ -1,11 +1,8 @@
 ---
 layout: post
-title:  "Authenticated RCE in Polycom Trio 8800 pt.1"
-date:   2018-09-28
+title: "Authenticated RCE in Polycom Trio 8800 pt.1"
+date:   2018-11-21
 ---
-
-## Authenticated RCE in Polycom Trio 8800
-
 ![img](https://media.giphy.com/media/l0IyjJm2vNwzokO9a/giphy.gif)
 
 
@@ -226,7 +223,7 @@ PORT     STATE SERVICE
 
 The access via Telnet follows the same entry order as the web interface, such as user and password.
 
-<IMAGEM_REQUEST>
+
 
 ```python
 In [5]: print(base64.b64decode("UG9seWNvbTo0NTY=").decode("utf-8"))
