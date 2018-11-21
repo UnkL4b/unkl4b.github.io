@@ -65,7 +65,8 @@ The analysis began by extracting the content:
 
 This gave us a range of directories with a few interesting files:
 
-```.
+```
+.
 ├── 118BE102.crt
 ├── 150F872.bz2
 ├── 15257DC
@@ -224,8 +225,7 @@ PORT     STATE SERVICE
 The access via Telnet follows the same entry order as the web interface, such as user and password.
 
 
-
-```python
+```
 In [5]: print(base64.b64decode("UG9seWNvbTo0NTY=").decode("utf-8"))
 Polycom:456
 ```
