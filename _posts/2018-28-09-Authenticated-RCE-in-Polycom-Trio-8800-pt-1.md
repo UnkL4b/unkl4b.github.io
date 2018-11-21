@@ -65,7 +65,7 @@ The analysis began by extracting the content:
 
 This gave us a range of directories with a few interesting files:
 
-```
+```perl
 .
 ├── 118BE102.crt
 ├── 150F872.bz2
