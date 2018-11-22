@@ -207,7 +207,7 @@ With these parameters we noticed that it’s possible to habilitate the Telnet. 
 </PHONE_CONFIG>
 ```
 
-The Telnet default door is disabled, so we made a scan and found out that the service goes up by a 1023 pattern.  
+The Telnet default port is disabled, so we made a scan and found out that the service goes up by a 1023 pattern.  
 
 ```perl
 Nmap scan report for xxx.xxx.xxx.xxx
