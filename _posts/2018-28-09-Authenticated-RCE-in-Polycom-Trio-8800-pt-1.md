@@ -14,7 +14,7 @@ These tests resulted in the discovery of a device command execution fail and unt
 
 ![img](https://images-na.ssl-images-amazon.com/images/I/31O7cOW0A0L._SX425_.jpg)
 
-#### Versoes afetadas:
+#### Affected Versions:
 -  5.4.0.12197
 -  5.4.0.12541
 -  5.4.0.12856
@@ -471,7 +471,7 @@ root@capri_pl_rocky_proto2:/ # id
 uid=0(root) gid=0(root)
 ```
 
-#### Conclusao
+#### Conclusion
 Because the RCE is authenticated, it hinders the execution, however by standard the admin password is 456 which makes it easier to access. From that, if there is a standard password change it’s possible to apply a bruteforce attack at the web application. This first part of the research shows the execution command, nevertheless we are still studying other accesses and attacks possibilities on the device so that attackers can, without authentication, be able to record surrounding audio and phone calls.
 
 ![img](https://github.com/UnkL4b/unkl4b.github.io/raw/master/img/photo_2018-10-15_15-35-52.jpg)
