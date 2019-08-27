@@ -347,3 +347,5 @@ https://github.com/Ne0nd0g/merlin
 https://github.com/quicwg/base-drafts/wiki/QUIC-Versions
 
 https://www.fastvue.co/fastvue/blog/googles-quic-protocols-security-and-reporting-implications/
+
+> If you try to stop me,you will fail, because I do this out of love, you do it for money.
