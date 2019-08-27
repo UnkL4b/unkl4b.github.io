@@ -4,8 +4,6 @@ title: "Evade IDS/IPS With QUIC Protocol"
 date:   2019-08-27
 ---
 
-# Evade IDS/IPS With QUIC Protocol
-
 ![img](https://media.giphy.com/media/IeKgCDlpTqRQbZEhBF/giphy.gif)
 
 
