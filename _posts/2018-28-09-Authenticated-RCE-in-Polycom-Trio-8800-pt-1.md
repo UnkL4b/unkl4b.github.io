@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Authenticated RCE in Polycom Trio 8800 pt.1"
+title: "CVE-2018-17875 - Authenticated RCE in Polycom Trio 8800 pt.1"
 date:   2018-11-21
 ---
 ![img](https://media.giphy.com/media/l0IyjJm2vNwzokO9a/giphy.gif)
