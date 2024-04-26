@@ -7,7 +7,7 @@ date:   2019-08-27
 ![img](https://media.giphy.com/media/IeKgCDlpTqRQbZEhBF/giphy.gif)
 
 
-QUIC is a new protocol created by Google to make the web faster and more efficient. It is enabled by default in Chromium and used by a growth list of sites. And because of its growth, it can also pose a threat to the companies, because the RFC of the protocol is still in the draft phase by IETF, lack documentation and understanding about it to inspect and block its traffic, facilitating protocol abuse by attackers.
+QUIC is a new protocol created by Google to make the web faster and more efficient. It is enabled by default in Chromium and used by a growth list of sites. And because of its growth, it can also pose a threat to the companies, because the RFC of the protocol is still in the draft phase by IETF, lack documentation and understanding about it to inspect and block its traffic, facilitating protocol abuse by attackers..
 
 
 ## Indice
