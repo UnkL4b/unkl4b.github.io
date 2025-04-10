@@ -4,7 +4,6 @@ title:  "Análise de Código Malicioso Python"
 date:   2025-04-10
 ---
 
-# Análise de Código Malicioso Python
 
 
 >⚠️ Disclaimer ⚠️
