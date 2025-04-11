@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Análise de Código Malicioso Python"
+title:  "CS2 Stealer Edition - Análise de Código Malicioso Python"
 date:   2025-04-10
 ---
 
