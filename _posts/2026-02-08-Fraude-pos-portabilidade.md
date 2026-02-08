@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Fraude Pós-Portabilidade: quando o ataque acontece em minutos (e o SIEM ainda está dormindo)"
+title:  "Fraude Pós-Portabilidade"
 date:   2026-08-02
 ---
 # Fraude Pós-Portabilidade: quando o ataque acontece em minutos (e o SIEM ainda está dormindo)
