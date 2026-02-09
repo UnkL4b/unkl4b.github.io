@@ -5,7 +5,7 @@ date:   2026-02-08
 ---
 
 
-# Fraude Pós-Portabilidade: quando o ataque acontece em minutos (e o SIEM ainda está dormindo)
+## Fraude Pós-Portabilidade: quando o ataque acontece em minutos (e o SIEM ainda está dormindo)
 
 Antes de qualquer coisa… não, isso aqui **não é teoria**.
 Isso acontece **todo santo dia** em banco, fintech, marketplace e qualquer sistema que ainda confia em SMS como fator forte de autenticação.
