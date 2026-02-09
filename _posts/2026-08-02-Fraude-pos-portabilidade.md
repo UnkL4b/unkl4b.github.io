@@ -15,7 +15,7 @@ Se você acha que SIM Swap é algo sofisticado, sinto dizer: **não é**.
 
 A ideia desse post é simples: **mostrar como detectar fraude pós-portabilidade usando SIEM de verdade**, com regra que funciona no mundo real, não em slide de vendor.
 
----
+
 
 ## A cadeia de ataque (não tem mistério)
 
@@ -31,7 +31,7 @@ O fluxo quase sempre é esse:
 Isso tudo costuma acontecer **em menos de 30 minutos**.
 Quem trata esses eventos de forma isolada já perdeu.
 
----
+
 
 ## O erro clássico dos SOCs
 
@@ -47,13 +47,13 @@ Ou seja: **ninguém correlaciona**.
 E fraude não acontece em eventos isolados.
 Ela acontece em **cadeia**.
 
----
+
 
 ## Vamos ao que interessa: regras de SIEM
 
 Vou usar campos genéricos. Ajusta para o teu parser e segue o jogo.
 
----
+
 
 ## Splunk – correlação que realmente importa
 
@@ -68,7 +68,7 @@ index=telecom
 Isso **não é alerta**.
 Isso é **contexto de risco**.
 
----
+
 
 ### Reset de MFA até 24h após portabilidade
 
@@ -84,7 +84,7 @@ index=auth
 Aqui já começa a feder.
 Reset de MFA depois de portabilidade **não é normal**.
 
----
+
 
 ### Account Recovery + Portabilidade + MFA Reset
 
@@ -102,7 +102,7 @@ index=auth
 
 Se isso aqui disparou e ninguém bloqueou a conta, **o estrago já aconteceu**.
 
----
+
 
 ### Login fora do padrão (ASN / país)
 
@@ -115,7 +115,7 @@ index=auth event_type="login"
 Sozinho é ruído.
 Com o resto da cadeia, é confirmação.
 
----
+
 
 ## Elastic / OpenSearch – EQL simples e eficiente
 
@@ -130,7 +130,7 @@ sequence by user_id with maxspan=24h
 
 Isso aqui deveria ser **CRITICAL por padrão**.
 
----
+
 
 ### Troca de IMEI após portabilidade
 
@@ -142,7 +142,7 @@ sequence by user_id with maxspan=24h
 
 Golpista raramente mantém o mesmo device.
 
----
+
 
 ## QRadar – AQL direto ao ponto
 
@@ -166,7 +166,7 @@ AND starttime < port_time + 86400000
 Não tem milagre.
 Tem correlação.
 
----
+
 
 ## Microsoft Sentinel – KQL sem frescura
 
@@ -192,7 +192,7 @@ PortEvents
 
 Se isso aqui vira só alerta e não ação, o problema não é técnico.
 
----
+
 
 ## Score antifraude (simples e funcional)
 
@@ -207,7 +207,7 @@ Se isso aqui vira só alerta e não ação, o problema não é técnico.
 Passou de **80 pontos**?
 Não discute — **bloqueia**.
 
----
+
 
 ## O que deveria acontecer automaticamente
 
@@ -221,7 +221,7 @@ Quando a regra dispara:
 
 Qualquer coisa menos que isso é **teatro de segurança**.
 
----
+
 
 ## Conclusão (sem romantizar)
 
