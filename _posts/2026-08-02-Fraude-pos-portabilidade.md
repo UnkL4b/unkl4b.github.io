@@ -59,7 +59,7 @@ Vou usar campos genéricos. Ajusta para o teu parser e segue o jogo.
 
 ### Portabilidade ou SIM Swap (evento raiz)
 
-```spl
+```python
 index=telecom
 (event_type="port_request" OR event_type="sim_swap" OR event_type="iccid_change")
 | stats earliest(_time) as port_time by user_id phone
@@ -72,7 +72,7 @@ Isso é **contexto de risco**.
 
 ### Reset de MFA até 24h após portabilidade
 
-```spl
+```python
 index=auth
 (event_type="mfa_reset" OR event_type="mfa_disabled")
 | join user_id
@@ -88,7 +88,7 @@ Reset de MFA depois de portabilidade **não é normal**.
 
 ### Account Recovery + Portabilidade + MFA Reset
 
-```spl
+```python
 index=auth
 (event_type="account_recovery" OR event_type="password_reset")
 | join user_id
@@ -106,7 +106,7 @@ Se isso aqui disparou e ninguém bloqueou a conta, **o estrago já aconteceu**.
 
 ### Login fora do padrão (ASN / país)
 
-```spl
+```python
 index=auth event_type="login"
 | where src_asn NOT IN ("AS_INTERNO_1","AS_INTERNO_2")
 | where geo_country!="BR"
@@ -121,7 +121,7 @@ Com o resto da cadeia, é confirmação.
 
 ### Cadeia completa em 24h
 
-```eql
+```python
 sequence by user_id with maxspan=24h
   [ authentication where event_type == "port_request" ]
   [ authentication where event_type in ("mfa_reset","mfa_disabled") ]
@@ -134,7 +134,7 @@ Isso aqui deveria ser **CRITICAL por padrão**.
 
 ### Troca de IMEI após portabilidade
 
-```eql
+```python
 sequence by user_id with maxspan=24h
   [ authentication where event_type == "port_request" ]
   [ authentication where event_type == "login" and imei != previous_imei ]
@@ -146,7 +146,7 @@ Golpista raramente mantém o mesmo device.
 
 ## QRadar – AQL direto ao ponto
 
-```sql
+```python
 SELECT username, MIN(starttime) AS port_time
 FROM events
 WHERE eventname='port_request'
@@ -155,7 +155,7 @@ GROUP BY username
 
 Agora cruza com:
 
-```sql
+```python
 SELECT username, starttime
 FROM events
 WHERE eventname IN ('mfa_reset','account_recovery')
@@ -170,7 +170,7 @@ Tem correlação.
 
 ## Microsoft Sentinel – KQL sem frescura
 
-```kql
+```python
 let PortEvents =
 SecurityEvent
 | where EventType == "port_request"
