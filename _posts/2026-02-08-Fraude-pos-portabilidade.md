@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Fraude Pós-Portabilidade"
+title:  "Fraude Pos-Portabilidade"
 date:   2026-08-02
 ---
 
